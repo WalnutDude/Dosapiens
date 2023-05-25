@@ -15,12 +15,12 @@ h1{
 #tagline{
     color: #00ff73;
     font-family: "consolas", 'Courier New', "sans-serif";
-    font-size: 21px;
+    font-size: 19px;
     
 }
 #dosapiens{
     font-size: xxx-large;
-    text-shadow: 0px 0px 113px white;
+    text-shadow: 0px 0px 105px white;
 }
 
 .container{
@@ -53,4 +53,15 @@ input[id='password']{
     font-family: "consolas", sans-serif;
     text-align: center;
     
+}
+
+#continueButton{
+    margin-top: 15px;
+    padding: 10px;
+    background-color: aliceblue;
+    border-style: hidden;
+    border-radius: 5px;
+    font-family: sans-serif;
+    outline: none;
+    text-align: center;
 }
