@@ -15,7 +15,7 @@ h1{
 #tagline{
     color: #00ff73;
     font-family: "consolas", 'Courier New', "sans-serif";
-    font-size: 23px;
+    font-size: 21px;
     
 }
 #dosapiens{
@@ -29,7 +29,7 @@ h1{
     flex-direction: column;
     align-items: center;
     padding: 10px;
-    width: 350px;
+    width: 325px;
     border-radius: 10px;
 }
 
