@@ -1,0 +1,52 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.4.0/css/all.min.css" integrity="sha512-iecdLmaskl7CVkqkXNQ/ZH/XLlvWZOJyj7Yy7tcenmpD1ypASozpmT/E0iPtmFIB46ZmdtAc9eNBvH0H/ZpiBw==" crossorigin="anonymous" referrerpolicy="no-referrer" />
+    <title>Home</title>
+    <link rel="stylesheet" href="home.css">
+</head>
+<body>
+    <header>
+        <div class="navbar">
+            <div class="logo"><a href="#">Dosapiens</a></div>
+            <ul class="links">
+                <li><a href="home.html">Home</a></li>
+                <li><a href="members.html">Members</a></li>
+                <li><a href="law.html">Law</a></li>
+                <li><a href="about.html">About</a></li>
+            </ul>
+            <a href="gossip.html" class="action_btn">Gossip</a>
+            <div class="toggle_btn">
+                <i class="fa-solid fa-bars" style="color: aliceblue;"></i>
+            </div>
+        </div>
+
+        <div class="dropdown_menu">
+            <li><a href="home.html">Home</a></li>
+            <li><a href="members.html">Members</a></li>
+            <li><a href="law.html">Law</a></li>
+            <li><a href="about.html">About</a></li>
+            <li><a href="gossip.html" class="action_btn">Gossip</a></li>
+        </div>
+    </header>
+
+    <script>
+        const toggleButton = document.querySelector('.toggle_btn')
+        const toggleButtonIcon = document.querySelector('.toggle_btn i')
+        const dropDownMenu = document.querySelector('.dropdown_menu')
+        
+        toggleButton.onclick = function () {
+            dropDownMenu.classList.toggle('open')
+            const isOpen = dropDownMenu.classList.contains('open')
+
+            toggleButtonIcon.classList = isOpen
+                ? 'fa-solid fa-xmark'
+                : 'fa-solid fa-bars'
+        }
+   </script>
+
+</body>
+</html>
