@@ -1,7 +1,7 @@
 function continueButtFunc(){
     passwordText = document.getElementById("password").value;
     if (passwordText == "D0saEAt!ng!nd1vidual$"){
-        alert("nice");
+        window.location.href="home.html"
     }
     else{
         document.getElementById("tagline").innerHTML = "Incorrect passcode";
