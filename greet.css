@@ -1,0 +1,57 @@
+body{
+    background: linear-gradient(#111111, #000000);
+    background-repeat: no-repeat;
+    background-attachment: fixed;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+    
+}
+h1{
+    color: aliceblue;
+    font-family: 'Times New Roman', Times, serif;
+}
+#tagline{
+    color: #00ff73;
+    font-family: "consolas", sans-serif;
+    font-size: 20px;
+    
+}
+#dosapiens{
+    font-size: xxx-large;
+    text-shadow: 0px 0px 113px white;
+}
+
+.container{
+    background-color: rgba(132, 102, 242, 0.7);
+    
+    padding: 10px;
+    width: 350px;
+    border-radius: 10px;
+}
+
+h2{
+    margin: 10px 0px 0px 0px;
+    text-align: center;
+    font-size: 25px;
+    color: aliceblue;
+    font-family: "sans-serif", consolas;
+}
+
+input[id='password']{
+    padding: 10px;
+    border-radius: 6px;
+    border-style: hidden;
+    outline: none;
+    display: block;
+    position: relative;
+    font-size: 20px;
+    font-family: "consolas", sans-serif;
+    text-align: center;
+    top: 3px;
+    margin-top: 20px;
+    margin-left: 72px;
+    user-select: auto;
+    margin-bottom: 20px;
+}
