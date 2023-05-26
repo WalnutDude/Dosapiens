@@ -1,0 +1,92 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.4.0/css/all.min.css" integrity="sha512-iecdLmaskl7CVkqkXNQ/ZH/XLlvWZOJyj7Yy7tcenmpD1ypASozpmT/E0iPtmFIB46ZmdtAc9eNBvH0H/ZpiBw==" crossorigin="anonymous" referrerpolicy="no-referrer" />
+    <title>Dosapiens | About</title>
+    <link rel="stylesheet" href="home.css">
+    <link rel="stylesheet" href="about.css">
+    <script src="index.js"></script>
+</head>
+<body style="background-image: none; background-color: black;">
+    <header>
+        <div class="navbar">
+            <div class="logo"><a href="#">Dosapiens.</a></div>
+            <ul class="links">
+                <li><a href="index.html">Home</a></li>
+                <li><a href="members.html">Members</a></li>
+                <li><a href="publicrelations.html">Public Relations</a></li>
+                <li><a href="about.html">About</a></li>
+            </ul>
+            <a href="gossip.html" class="action_btn">Gossip</a>
+            <div class="toggle_btn">
+                <i class="fa-solid fa-bars" style="color: aliceblue;"></i>
+            </div>
+        </div>
+
+        <div class="dropdown_menu">
+            <li><a href="index.html">Home</a></li>
+            <li><a href="members.html">Members</a></li>
+            <li><a href="publicrelations.html">Public Relations</a></li>
+            <li><a href="about.html">About</a></li>
+            <li><a href="gossip.html" class="action_btn">Gossip</a></li>
+        </div>
+    </header>
+
+    <div class="container3">
+        <h1>About</h1>
+
+        <div class="content1">
+            <p>The Dosapiens Friend Group consists of 4 elite idiots. It was formed more than four and a half years ago and has been a major influential group of people for the classes in which they have partaken.</p>
+        
+            <p>Aayush and Aaditya are mostly only active in doing things for the friend group and making, designing things for the friend group</p>
+            <p>This is a premium group, and this website shall serve as a concrete reminder for everyone who encounters us.</p>
+            <p>This website was made on a budget of exactly 0 million dollars and an over-staffed team of 1 person. So, if you encounter any bugs/problems, dm it to <a style="color:rgb(158, 140, 221); font-weight: 600;" href="https://www.instagram.com/walnutdude/">@walnutdude</a> on Instagram.</p>     
+        </div>
+
+        <h1>Socials</h1>
+        <div class="content2">
+            <h3>Aaditya</h3>
+            <p>Instagram - <a href="https://www.instagram.com/walnutdude/" style=" color:rgb(158, 140, 221); font-weight: 600;">@walnutdude</a></p>
+            <p>Snapchat - @walnutdudee</p>
+            <p>Discord - WalnutDude#2109</p>
+            <p>Pinterest - @walnutdudee</p>
+            <p>Reddit - walnutdude0</p>
+            <p>Deepstash - @walnutdude</p>
+            <p>Twitter - @walnutdude0</p>
+            <br>
+            <h3>Aayush</h3>
+            <p>Instagram - <a style=" color:rgb(158, 140, 221); font-weight: 600;" href="https://www.instagram.com/katsu_097/">@katsu_097</a></p>
+            <p>Snapchat - @aayush-097</p>
+            <p>Spotify - ForKatsu</p>
+            <br>
+            <h3>Avdhoot</h3>
+            <p>Instagram - <a href="https://www.instagram.com/avdbad_07/" style=" color:rgb(158, 140, 221); font-weight: 600;">@avdbad_07</a></p>
+            <p>Snapchat - @avdhootbadhe</p>
+            <br>
+            <h3>Sarth</h3>
+            <p>Instagram - <a style="color:rgb(158, 140, 221); font-weight: 600;" href="https://www.instagram.com/sarth_dangat/">@sarth_dangat</a></p>
+            <p>Snapchat - @sarth_dangat</p>
+            <br>
+        </div>
+    </div>
+
+    <script>
+        const toggleButton = document.querySelector('.toggle_btn')
+        const toggleButtonIcon = document.querySelector('.toggle_btn i')
+        const dropDownMenu = document.querySelector('.dropdown_menu')
+        
+        toggleButton.onclick = function () {
+            dropDownMenu.classList.toggle('open')
+            const isOpen = dropDownMenu.classList.contains('open')
+
+            toggleButtonIcon.classList = isOpen
+                ? 'fa-solid fa-xmark'
+                : 'fa-solid fa-bars'
+        }
+   </script>
+
+</body>
+</html>
