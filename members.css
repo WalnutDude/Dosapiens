@@ -7,7 +7,7 @@ body{
     display: flex;
     flex-direction: column;
     background-color: black;
-    height: 340%;
+    height: 360%;
     justify-content: space-around;
     align-items: center;
 }
