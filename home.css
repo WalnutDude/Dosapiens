@@ -1,9 +1,11 @@
 body{
     height: 100vh;
-    background: #000;
+    background-image: url(./assets/homebg.png);
     background-size: cover;
     background-position: center;
+    background-repeat: no-repeat;
     overflow: hidden;
+    background-attachment: fixed;
 }
 
 ul{
@@ -19,6 +21,7 @@ a{
     text-decoration: none;
     color: aliceblue;
     font-size: 1rem;
+    font-family: sans-serif;
 }
 
 a:hover{
@@ -43,6 +46,7 @@ header{
 .navbar .logo a{
     font-size: 1.5rem;
     font-weight: bold;
+    font-family: 'Times New Roman', Times, serif;
 }
 
 .navbar .links{
