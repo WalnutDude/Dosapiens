@@ -1,3 +1,7 @@
+body{
+    overflow: auto;
+}
+
 .container2{
     width: 100%;
     display: flex;
@@ -36,7 +40,7 @@
 }
 
 .container2 .Aaditya .desc{
-    padding-left: 3px;
+    padding-left: 4px;
     padding-right: 4px;
     text-align: center;
     font-family: sans-serif;
@@ -44,6 +48,16 @@
     font-weight: 500;
     color: aliceblue;
     
+}
+
+.container2 .Aayush .desc{
+    padding-left: 4px;
+    padding-right: 4px;
+    text-align: center;
+    font-family: sans-serif;
+    font-style: italic;
+    font-weight: 500;
+    color: aliceblue;
 }
 
 h4{
