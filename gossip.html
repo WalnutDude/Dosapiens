@@ -1,0 +1,63 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.4.0/css/all.min.css" integrity="sha512-iecdLmaskl7CVkqkXNQ/ZH/XLlvWZOJyj7Yy7tcenmpD1ypASozpmT/E0iPtmFIB46ZmdtAc9eNBvH0H/ZpiBw==" crossorigin="anonymous" referrerpolicy="no-referrer" />
+    <title>Dosapiens | Gossip</title>
+    <link rel="stylesheet" href="home.css">
+    <link rel="stylesheet" href="gossip.css">
+    <script src="index.js"></script>
+</head>
+<body style="background-image: none; background-color: black;">
+    <header>
+        <div class="navbar">
+            <div class="logo"><a href="#">Dosapiens.</a></div>
+            <ul class="links">
+                <li><a href="index.html">Home</a></li>
+                <li><a href="members.html">Members</a></li>
+                <li><a href="publicrelations.html">Public Relations</a></li>
+                <li><a href="about.html">About</a></li>
+            </ul>
+            <a href="gossip.html" class="action_btn">Gossip</a>
+            <div class="toggle_btn">
+                <i class="fa-solid fa-bars" style="color: aliceblue;"></i>
+            </div>
+        </div>
+
+        <div class="dropdown_menu">
+            <li><a href="index.html">Home</a></li>
+            <li><a href="members.html">Members</a></li>
+            <li><a href="publicrelations.html">Public Relations</a></li>
+            <li><a href="about.html">About</a></li>
+            <li><a href="gossip.html" class="action_btn">Gossip</a></li>
+        </div>
+    </header>
+
+    <div class="container5">
+        <h2>A message by the devloper</h2>
+        <p>Hey, i just wanted to say that the gossips page is in devlopment. I'm actually going on a vacation for the next few days so i wont be able to code. I'll continue devlopment from Tuesday (27/5). Next up, ill be adding animations and ofc the gossips page. ill maybe even add a gallery.</p>
+        <p>PLEASE explore the other pages for now and read it all! if theres a problem or spelling mistake, dm me, you can find my socials on the about page. aight then guys wait up till you see the best friend group website you have ever seen (because you've not seen any others)</p>
+        <br>
+        <hr>
+        <p>walnutdude</p>
+    </div>
+
+    <script>
+        const toggleButton = document.querySelector('.toggle_btn')
+        const toggleButtonIcon = document.querySelector('.toggle_btn i')
+        const dropDownMenu = document.querySelector('.dropdown_menu')
+        
+        toggleButton.onclick = function () {
+            dropDownMenu.classList.toggle('open')
+            const isOpen = dropDownMenu.classList.contains('open')
+
+            toggleButtonIcon.classList = isOpen
+                ? 'fa-solid fa-xmark'
+                : 'fa-solid fa-bars'
+        }
+   </script>
+
+</body>
+</html>

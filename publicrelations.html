@@ -1,0 +1,81 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.4.0/css/all.min.css" integrity="sha512-iecdLmaskl7CVkqkXNQ/ZH/XLlvWZOJyj7Yy7tcenmpD1ypASozpmT/E0iPtmFIB46ZmdtAc9eNBvH0H/ZpiBw==" crossorigin="anonymous" referrerpolicy="no-referrer" />
+    <title>Dosapiens | PR</title>
+    <link rel="stylesheet" href="home.css">
+    <link rel="stylesheet" href="publicrelations.css">
+    <script src="index.js"></script>
+</head>
+<body style="background-image: none; background-color: black;">
+    <header>
+        <div class="navbar">
+            <div class="logo"><a href="#">Dosapiens.</a></div>
+            <ul class="links">
+                <li><a href="index.html">Home</a></li>
+                <li><a href="members.html">Members</a></li>
+                <li><a href="publicrelations.html">Public Relations</a></li>
+                <li><a href="about.html">About</a></li>
+            </ul>
+            <a href="gossip.html" class="action_btn">Gossip</a>
+            <div class="toggle_btn">
+                <i class="fa-solid fa-bars" style="color: aliceblue;"></i>
+            </div>
+        </div>
+
+        <div class="dropdown_menu">
+            <li><a href="index.html">Home</a></li>
+            <li><a href="members.html">Members</a></li>
+            <li><a href="publicrelations.html">Public Relations</a></li>
+            <li><a href="about.html">About</a></li>
+            <li><a href="gossip.html" class="action_btn">Gossip</a></li>
+        </div>
+    </header>
+
+    <div class="container4">
+        <h1>PR</h1>
+        <div class="content1">
+            <p>The Dosapiens Public Relations (PR) Department is a branch of Dosapiens. The main objective of this department is to improve social relationships and reputation. The creation of this department ensures public contact. This was necessary as most of the group is quite introverted.</p>
+            <p>Below you may see the ranks within this department. The duty of the President and the Vice-president is straightforward. Begin conversations and make sure they go well. The members will often just be involved in small talks in the conversations initiated by the top brass.</p>
+            <p>If you are reading this, and are not in well contact with the Dosapiens, please, DM us, we are looking to make more friends. We are fucking desperate. It is always better to have one more friend than one more enemy. Again, our dms are open to ANYONE.</p> 
+        </div>
+        <hr style="color: aliceblue;">
+        <div class="Sarth">
+            <h2>Sarth</h2>
+            <h3>President, PR</h3>
+        </div>
+        <div class="Avdhoot">
+            <h2>Avdhoot</h2>
+            <h3>Vice-president, PR</h3>
+        </div>
+        <div class="Aaditya">
+            <h2>Aaditya</h2>
+            <h3>Member, PR</h3>
+        </div>
+        <div class="Aayush">
+            <h2>Aayush</h2>
+            <h3>Member, PR</h3>
+        </div>
+            
+    </div>
+
+    <script>
+        const toggleButton = document.querySelector('.toggle_btn')
+        const toggleButtonIcon = document.querySelector('.toggle_btn i')
+        const dropDownMenu = document.querySelector('.dropdown_menu')
+        
+        toggleButton.onclick = function () {
+            dropDownMenu.classList.toggle('open')
+            const isOpen = dropDownMenu.classList.contains('open')
+
+            toggleButtonIcon.classList = isOpen
+                ? 'fa-solid fa-xmark'
+                : 'fa-solid fa-bars'
+        }
+   </script>
+
+</body>
+</html>
